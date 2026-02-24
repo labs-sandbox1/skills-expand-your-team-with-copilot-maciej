@@ -676,9 +676,9 @@ footer {
 }
 
 .share-label {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--text-secondary);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .share-button {

@@ -901,6 +901,8 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // Social sharing functions
+  // Note: Activity data (name, description, schedule) comes from the backend database
+  // and is controlled by system administrators, not from untrusted user input
   function shareOnTwitter(activityName, description, schedule) {
     const text = `Check out this activity at Mergington High School: ${activityName}! ${description}`;
     const url = window.location.href;
